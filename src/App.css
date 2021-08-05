@@ -17,12 +17,16 @@ body{
 
 }
 .container-fluid{
-  margin-left: 40px;
+
+  padding: 60px;
   font-size: 18px;
   font-weight:bold;
 }
 .text{
   padding-top: 30px;
+}
+input{
+  width: 100%;
 }
 .container-text{
   padding-top:40px;
@@ -31,9 +35,10 @@ body{
 .col-sm-4{
   padding-top:15px;
 }
-.img-size{
+.card img{
 height:50px;
-
+padding: 10px;
+text-align: left;
 }
 .div h5{
   color: red;

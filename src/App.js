@@ -28,7 +28,7 @@ function App() {
       <div className="row" >
         <div className="col-sm-3">
         <div className="card"  >
-        <img className="img-size" src="/images/fast-food.svg" class="card-img-top" alt="fastfood"/>
+        <img src="/images/fast-food.svg" class="card-img-top" alt="fastfood"/>
         <div className="card-body">
           <h5 className="card-title">Fast Food</h5>
           <p className="card-text">All sorrow are less with bread</p>
@@ -38,7 +38,7 @@ function App() {
     
         <div className="col-sm-3">
         <div className="card">
-        <img className="img-size"  src="/images/Vegetables & Drinks.svg" class="card-img-top" alt="vegetables&fruit"/>
+        <img  src="/images/Vegetables & Drinks.svg" class="card-img-top" alt="vegetables&fruit"/>
         <div className="card-body">
           <h5 className="card-title">Vegetable & Fruit</h5>
           <p className="card-text">May not want it,but good for you.</p>
@@ -48,7 +48,7 @@ function App() {
       
         <div className="col-sm-3">
         <div className="card">
-        <img className="img-size"  src="/images/Drinks & Cocktails.svg" class="card-img-top" alt="Drinks&cocktails"/>
+        <img  src="/images/Drinks & Cocktails.svg" class="card-img-top" alt="Drinks&cocktails"/>
         <div className="card-body">
           <h5 className="card-title">Drinks & Cocktails</h5>
           <p className="card-text">I feel sad for who don't drink.</p>
@@ -58,9 +58,9 @@ function App() {
         
         <div className="col-sm-3">
         <div className="card">
-        <img className="img-size" src="/images/resturant.svg" class="card-img-top" alt="resturant"/>
+        <img  src="/images/resturant.svg" class="card-img-top" alt="resturant"/>
         <div className="card-body">
-          <h5 className="card-title">Resturants</h5>
+          <h5 className="card-title">Resturant</h5>
           <p className="card-text">All sorrows are less with bread.</p>
         </div>
       </div>
