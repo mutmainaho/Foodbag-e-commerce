@@ -26,9 +26,27 @@
     display: inline-block;
     margin-left: 25px;
   }
-.top{
-    
-    display: flex;
+.price{
     justify-content: space-between;
-    padding: 20px;
+    display: flex;
+    padding: 10px;
 }
+.price-2{
+    color: green;
+}
+.container-chi{
+    margin-top: 150px;
+    
+}
+  
+.top{
+    display:flex;
+
+}
+.top p a{
+    text-decoration: none;
+    color:red;
+    margin-left: 80px;
+    
+}
+    
