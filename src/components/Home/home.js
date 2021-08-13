@@ -1,38 +1,36 @@
 import React, { Component } from 'react';
-import './main.css';
-import '../vendor/vendor'
-function App() {
+import './Home.css';
+import Select from '../Location/Select';
+import Interest from '../Interest/Interest';
+import fastFood from '../Images/fast-food.svg';
+import vegetablesDrinks from '../Images/Vegetables _ Drinks.svg';
+import drinksCocktails from '../Images/Drinks _ Cocktails.svg';
+import restaurant from '../Images/resturant.svg';
+import Service from '../Service/Service';
+import illustrator1 from '../Images/Illustration_1.svg';
+import illustrator2 from '../Images/illustration_2.svg';
+import illustrator3 from '../Images/illustration_3.svg';
+
+
+
+
+
+const Home = () => {
   return (
     <div>
-       <div className="container">
-      <nav class="nav-bar">
-      <p>FoodBag</p>
-      <ul class="bar">
-        <li>Carts</li>
-        <li>Login</li>
-        <li><button type="button" class="btn btn-default btn-outline-success">sign up</button></li>
-      </ul>
-    </nav>
-      </div>
+       
       <div className="container">
         <h1>FOODBAG</h1>
         <p>Anything food, we have you covered.</p>
       </div>
-      <div className="container-2">
-        <p>Where are you?</p>
-        <div className="form-group">
-  <select class="form-control" id="sel1" placeholder="Enter your delivery address">
-  <option>Enter your delivery address</option>
-  <option>Bodija Market</option>
-  
-  </select>
-</div>
+      <section className="container-2">
+        
       <p className = "text">Pick an interest</p>
 
       <div className="row" >
         <div className="col-sm-3">
         <div className="card " >
-        <img src="/images/fast-food.svg" class="card-img-top" alt="fastfood"/>
+        <img src={fastfood} class="card-img-top" alt="fastfood"/>
         <div className="card-body">
           <h5 className="card-title">Fast Food</h5>
           <p className="card-text">All sorrow are less with bread</p>
@@ -42,7 +40,7 @@ function App() {
     
         <div className="col-sm-3">
         <div className="card">
-        <img  src="/images/Vegetables & Drinks.svg" class="card-img-top" alt="vegetables&fruit"/>
+        <img  src={VegetablesDrinks} class="card-img-top" alt="vegetables&fruit"/>
         <div className="card-body">
           <h5 className="card-title">Vegetable & Fruit</h5>
           <p className="card-text">May not want it,but good for you.</p>
@@ -52,7 +50,7 @@ function App() {
       
         <div className="col-sm-3">
         <div className="card">
-        <img  src="/images/Drinks & Cocktails.svg" class="card-img-top" alt="Drinks&cocktails"/>
+        <img  src={drinksCocktails} class="card-img-top" alt="Drinks&cocktails"/>
         <div className="card-body">
           <h5 className="card-title">Drinks & Cocktails</h5>
           <p className="card-text">I feel sad for who don't drink.</p>
@@ -62,74 +60,42 @@ function App() {
         
         <div className="col-sm-3">
         <div className="card">
-        <img  src="/images/resturant.svg" class="card-img-top" alt="resturant"/>
+        <img  src={resturant} class="card-img-top" alt="resturant"/>
         <div className="card-body">
           <h5 className="card-title">Resturant</h5>
           <p className="card-text">All sorrows are less with bread.</p>
         </div>
       </div>
         </div>
-        </div>
+        </div>  
+   </section> 
 
-        
-   </div> 
-{/* first div */}
 
-<div className="container-text">
+<section className="container-text">
   <h4>HOW WE SERVE YOU</h4>
   <div className="row">
     <div className="col-sm-4">
-    <img  src="/images/Illustration_1.svg" alt="illustration"/>
+    <img  src={illustrator1} alt="illustration"/>
 
       <h5>Tell us where you are</h5>
       <p>select the location you want us to deliver</p>
     </div>
     <div className="col-sm-4">
-    <img  src="/images/illustration_2.svg" alt="illustration"/>
+    <img  src={illustrator2} alt="illustration"/>
       <h5>Tell us what you want</h5>
       <p>Browse the type of food that interest you</p>
     </div>
     <div className="col-sm-4">
-    <img  src="/images/illustration_3.svg" alt="illustration"/>
+    <img  src={illustrator3} alt="illustration"/>
       <h5>We'll come running</h5>
       <p>your order will be delivered to you in no time</p>
     </div>
   </div>
-  
-
-</div>
-
-
-<footer className="footer">
-<p>Contact us</p>
-<div className="container">
-  <div className="row">
-    <ul>
-<img className="col-md-4" src="images/twitter 2.svg" alt="twitter" />
-<img className="col-md-4" src="images/youtube 1.svg" alt="youtube" />
-<img className="col-md-4" src="images/facebook-f 1.svg" alt="facebook" />
-</ul>
-</div>
-<div className="row">
-<div className="col-sm-6">
-  <p>Terms & Conditions. privacy policy</p>
-</div>
-<div className="col-sm-6">
-  <p>@Copyright 2021 Foodbag is a registered trademark</p>
-</div>
-</div>
-</div>
-
-</footer>
-
-
-
-
-
+</section>
 
 
     </div>
   );
 }
 
-export default App;
+export default Home;

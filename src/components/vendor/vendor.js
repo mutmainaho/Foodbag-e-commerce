@@ -6,14 +6,7 @@ function App() {
     return (
       <div>
         <div className="container">
-        <nav class="nav-bar">
-        <p>FoodBag</p>
-        <ul className="bar">
-          <li>Carts</li>
-          <li>Login</li>
-          <li><button type="button" className="btn btn-default btn-outline-danger">sign up</button></li>
-        </ul>
-      </nav>
+        
         </div>
         <div className="container">
         <h3 className="text">All Vendors</h3>
