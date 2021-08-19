@@ -8,28 +8,8 @@
     font-size:14px;
     
   }
-  .text{
-      padding: 20px;
-      font-weight: bold;
-
-  }
-  .nav-bar {
-    height: 70px;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-
-  }
-  
-  .bar li {
-    display: inline-block;
-    margin-left: 25px;
-  }
-.top{
-    
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-self: flex-end;
+  @media (min-width: 780px) {
+    .custome_size {
+        width: 85% !important;
+    }
 }
